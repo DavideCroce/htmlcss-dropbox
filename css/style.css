@@ -1,0 +1,62 @@
+/*generics*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0;
+}
+
+.clearfix::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*utilities*/
+
+header{
+    padding: 25px;
+    
+}
+
+.hbg{
+    background-color: #fff;
+    height: 150px;
+
+}
+
+.col{
+    float:left;
+}
+
+li{
+    display: inline-block;
+}
+
+.txtl{
+   text-align: left;
+}
+
+.txtr{
+    text-align: right;
+}
+
+
+a{
+    text-decoration: none;
+
+}
+
+.w50{
+    width: 50%;
+}
+
