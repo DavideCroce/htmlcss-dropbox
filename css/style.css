@@ -58,7 +58,7 @@ button{
 
 /*header*/
 
-li{
+.nav{
     display: inline-block;
 }
 
@@ -150,6 +150,11 @@ a:hover{
 
 /*sezione2*/
 
+#subscribe{
+    margin-left: 70px;
+   
+}
+
 .section-subscribes{
     margin-top: 200px;
     margin-left: 200px;
@@ -161,8 +166,12 @@ h2{
     font-size: 40px;
 }
 
+#search-your-plan{
+    padding-left: 30px;
+}
+
 .w30ss{
-    width: calc(30% - 30px);
+    width: calc(30% - 57px);
     height: 900px;
     margin: 30px;
     border: solid 2px lightgrey;
@@ -178,10 +187,82 @@ h2{
     border: solid 0.5px lightgrey;
 }
 
-span{
-    margin-left: 10px;
+
+
+.type-of-plan{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 40px;
 }
 
-.type-of-plan
+.icns{
+    margin-left: 3px;
+    margin-bottom: 33px;
+}
 
+.things{
+    display: inline-block;
 
+}
+
+.smaller{
+    width: 80%;
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 4px;
+}
+
+.w10{
+    margin-left: 40px;
+}
+
+.things{
+    margin-left: 4px;
+    margin-bottom: 30px;
+}
+
+.whidther{
+    margin-top: 30px;
+    padding: 10px 70px;
+    margin-left: 40px;
+}
+
+.buy-now{
+    color: #0061ff;
+    text-decoration: underline;
+}
+
+.buy-now:hover{
+    cursor: pointer;
+}
+
+.or-buy{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.small-lg{
+    color:lightgrey;
+    border: solid 0.5px lightgrey;
+    width: 15%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.none{
+    list-style-type: none;
+}
+
+.fa-check{
+    color: #0061ff;
+    margin-right: 3px;
+}
+
+.check{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.transfert{
+    margin-left: 18px;
+}
