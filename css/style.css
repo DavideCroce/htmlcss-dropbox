@@ -301,6 +301,7 @@ h2{
 
 .pay-time{
     font-size: 13px;
+    color: grey;
 }
 
 #border-lb-5px{
@@ -321,6 +322,7 @@ h2{
     padding-top: 50px;
     display: inline-block;
     margin-left: 30px;
+    margin-bottom: 10px;
 }
 
 #border-lg-2px{
@@ -331,4 +333,34 @@ h2{
     border-radius: 50%;
     line-height: 6px;
     vertical-align: middle;
+}
+
+.contacts{
+    width: 68.5%;
+    border: solid 2px lightgrey;
+    height: 200px;
+    margin-left: 300px;
+    margin-bottom: 200px;
+    margin-top: 30px;
+}
+
+#enterprise, #contact, #solutions{
+    margin-left: 30px;
+}
+
+#enterprise{
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#contact{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#solutions{
+    margin-top: 30px;
+    font-size: 13px;
 }
