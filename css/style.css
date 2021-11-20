@@ -375,3 +375,29 @@ h2{
 .w-30{
     width: 30%;
 }
+
+
+.partner-db{
+    width: 60%;
+    margin-left: 500px;
+}
+
+.imgs{
+    background-image: url(../img/partner.png);
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.txt{
+    padding: 0 100px;
+}
+
+.partner{
+    margin-top: 40px;
+}
+
+.btn-w{
+    background-color: #fff;
+    border: solid 2px black;
+}
