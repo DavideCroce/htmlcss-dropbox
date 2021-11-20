@@ -302,3 +302,33 @@ h2{
 .pay-time{
     font-size: 13px;
 }
+
+#border-lb-5px{
+    font-size: 6px;
+    padding: 1px 5px ;
+    background-color: #fff;
+    border: solid 5px #0061ff;
+    border-radius: 50%;
+    line-height: 6px;
+    vertical-align: middle;
+}
+
+.type-of-payment{
+    padding-left: 10px;
+}
+
+.monthly, .annual{
+    padding-top: 50px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#border-lg-2px{
+    font-size: 12px;
+    padding: 1px 9px ;
+    background-color: #fff;
+    border: solid 2px lightgrey;
+    border-radius: 50%;
+    line-height: 6px;
+    vertical-align: middle;
+}
