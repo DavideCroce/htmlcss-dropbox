@@ -172,7 +172,7 @@ h2{
 
 .w30ss{
     width: calc(30% - 57px);
-    height: 900px;
+    height: 1200px;
     margin: 30px;
     border: solid 2px lightgrey;
 }
@@ -265,4 +265,40 @@ h2{
 
 .transfert{
     margin-left: 18px;
+}
+
+.plans-points{
+    margin-top: 30px;
+}
+
+.points{
+    margin-left: 40px;
+}
+
+.w90{
+    width: 75%;
+}
+
+.folder{
+    margin-top: 35px;
+}
+
+.w10{
+    width: 7%;
+}
+
+.standard{
+    padding-bottom: 30px;
+}
+
+.fa-user-plus{
+    padding-left: 5px;
+}
+
+.cost{
+    font-weight: bolder;
+}
+
+.pay-time{
+    font-size: 13px;
 }
