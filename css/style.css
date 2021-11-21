@@ -27,7 +27,7 @@ main{
 }
 
 html{
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 /*utilities*/
 
@@ -100,7 +100,7 @@ a:hover{
     vertical-align: middle;
 }
 
-/*sezione-1*/
+/*informations*/
 .section-lb{
     padding: 0 150px;
 }
@@ -157,7 +157,7 @@ a:hover{
   margin-top: 40px;
 }
 
-/*sezione2*/
+/*pices of plans*/
 
 #subscribe{
     margin-left: 70px;
@@ -384,6 +384,7 @@ h2{
     width: 30%;
 }
 
+/*contact-partner-dropbox*/
 
 .partner-db{
     width: 60%;
@@ -410,6 +411,8 @@ h2{
     background-color: #fff;
     border: solid 2px black;
 }
+
+/*operations*/
 
 .operations{
     width: 100%;
@@ -486,6 +489,8 @@ h2{
     cursor: pointer;
 }
 
+/*clients*/
+
 h2{
     font-weight: bolder;
 }
@@ -533,18 +538,22 @@ h2{
 
 .lg{
     background-color: lightgreen;
+    border-color: lightgreen;
 }
 
 .lb{
     background-color: #5595fc;
+    border-color: 5595fc;
 }
 
 .dr{
     background-color: darkred;
+    border-color: darkred;
 }
 
 .r{
     background-color: red;
+    border-color: red;
 }
 
 .centered{
@@ -573,18 +582,22 @@ h2{
 
 .mr{
     background-color: rgb(165, 3, 52);
+    border-color: rgb(165, 3, 52);
 }
 
 .mlb{
     background-color: #b4d0e7;
+    border-color: #b4d0e7;
 }
 
 .db{
     background-color: darkblue;
+    border-color: darkblue;
 }
 
 .y{
     background-color: rgb(255, 196, 0);
+    border-color: rgb(255, 196, 0);
 }
 
 .centered-wb{
@@ -646,6 +659,12 @@ h2{
 
 .said, .man-talked{
     font-weight: 700;
+}
+
+.square:hover{
+    border: solid 15px;
+    border-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
 }
 
 /*sezione-ads*/
@@ -711,6 +730,8 @@ footer{
     height: 500px;
 }
 
+/*links*/
+
 .links{
     width: 80%;
     margin-left: 150px;
@@ -737,6 +758,8 @@ h4{
 .sp10{
     margin-bottom: 10px;
 }
+
+/*linguage of the page*/
 
 .foot{
     margin-left: 150px;
