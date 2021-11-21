@@ -19,8 +19,16 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    width: 100%;
 }
 
+main{
+    width: 100%;
+}
+
+html{
+    overflow-x: hidden;
+}
 /*utilities*/
 
 header{
@@ -380,6 +388,7 @@ h2{
 .partner-db{
     width: 60%;
     margin-left: 500px;
+    height: 600px;
 }
 
 .imgs{
@@ -400,4 +409,241 @@ h2{
 .btn-w{
     background-color: #fff;
     border: solid 2px black;
+}
+
+.operations{
+    width: 100%;
+    margin-left: 400px;
+}
+
+.cards{
+    width: 80%;
+    margin-bottom: 100px;
+}
+
+
+.imgb1, .imgb2, .imgb3, .imgb4, .imgb5, .imgb6{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 90%
+}
+
+.imgb1{
+    background-image: url(../img/business-feature-switching-tools.png);
+}
+
+.imgb2{
+    background-image: url(../img/business-feature-coordinate-it.png);
+}
+
+.imgb3{
+    background-image: url(../img/business-feature-multi-device.png);
+}
+
+.imgb4{
+    background-image: url(../img/business-feature-integrations-it.png);
+}
+
+.imgb5{
+    background-image: url(../img/business-feature-send-files-it.png);
+}
+
+.imgb6{
+    background-image: url(../img/business-feature-security.png);
+}
+
+
+
+.op{
+    display: inline;
+
+}
+
+.w-20{
+    width: calc(30% - 40px);
+    
+}
+
+.txtd{
+    padding-right: 50px;
+}
+
+.pass{
+    padding-bottom: 20px ;
+    font-size: 25px;
+}
+
+.more-b{
+    font-size: 18px;
+}
+
+.underlined{
+    text-decoration: underline;
+}
+
+.underlined:hover{
+    cursor: pointer;
+}
+
+h2{
+    font-weight: bolder;
+}
+
+.clients{
+    width: 40%;
+    margin-left: 400px;
+}
+
+
+#find{
+    color: #0061ff;
+    text-decoration: underline;
+    margin-left: 0;
+}
+
+#dbb{
+   margin-bottom: 25px;
+}
+
+.h-400{
+    height: 400px;
+    margin-top: 40px;
+}
+
+.wi30{
+    width: 30%;
+}
+
+.wi50{
+    width: 50%;
+}
+
+.wi40{
+    width: 40%;
+    background-color: #f5f5f5;
+    height: 540px;
+}
+
+.square{
+    width: 50%;
+    height: 270px;
+    float: left;
+}
+
+.lg{
+    background-color: lightgreen;
+}
+
+.lb{
+    background-color: #5595fc;
+}
+
+.dr{
+    background-color: darkred;
+}
+
+.r{
+    background-color: red;
+}
+
+.centered{
+    transform: scale(0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.centered-d{
+    transform: scale(0.8);
+    margin-top: 130px;
+    margin-left: 40px;
+}
+
+.centered-s{
+    transform: scale(0.4);
+    width: 100%;
+    height: 100%;
+}
+
+.centered-t{
+    transform: scale(0.4);
+    width: 100%;
+    height: 100%;
+}
+
+.mr{
+    background-color: rgb(165, 3, 52);
+}
+
+.mlb{
+    background-color: lightblue;
+}
+
+.db{
+    background-color: darkblue;
+}
+
+.y{
+    background-color: rgb(255, 196, 0);
+}
+
+.centered-wb{
+    transform: scale(0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.centered-h{
+    transform: scale(0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.centered-lp{
+    transform: scale(0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.centered-cc{
+    transform: scale(0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.centered, .centered-cc, .centered-d,
+.centered-h, .centered-lp, .centered-s,
+.centered-t, .centered-wb{
+    filter: invert(100%);
+}
+
+.designit{
+    width: 20%;
+    height: 20%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.smaller-lg{
+    color:lightgrey;
+    border: solid 0.5px lightgrey;
+    width: 7%;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.said{
+    padding-left: 50px;
+    padding-right: 100px;
+    font-size: 16px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.man-talked{
+    margin-left: 50px;
+}
+
+.said, .man-talked{
+    font-weight: 700;
 }
