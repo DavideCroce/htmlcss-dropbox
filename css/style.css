@@ -69,6 +69,7 @@ button{
 
 .nav{
     display: inline-block;
+    height: 100px;
 }
 
 .txtl{
@@ -87,10 +88,6 @@ a{
     font-size: 15px;
 }
 
-a:hover{
-    text-decoration: underline;
-}
-
 .w50{
     width: 50%;
     padding: 0 10px;
@@ -102,6 +99,11 @@ a:hover{
 
 .w-txt{
     color: white;
+}
+
+.txtl:hover, .txtr:hover{
+    border-bottom: solid 5px black;
+    padding-bottom: 35px;
 }
 
 /*informations*/
