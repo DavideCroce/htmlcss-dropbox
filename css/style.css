@@ -100,6 +100,10 @@ a:hover{
     vertical-align: middle;
 }
 
+.w-txt{
+    color: white;
+}
+
 /*informations*/
 .section-lb{
     padding: 0 150px;
@@ -543,7 +547,7 @@ h2{
 
 .lb{
     background-color: #5595fc;
-    border-color: 5595fc;
+    border-color: #5595fc;
 }
 
 .dr{
@@ -710,7 +714,7 @@ h2{
     margin-bottom: 150px;
 }
 
-#lg{
+.lg-ask{
     color:#f5f5f5;
     border: solid 0.5px #f5f5f5;
     margin: 30px 0;
