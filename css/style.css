@@ -74,12 +74,13 @@ button{
 
 .txtl{
    text-align: left;
+   padding-bottom: 35px;
 }
 
 .txtr{
     text-align: right;
+    padding-bottom: 35px;
 }
-
 
 a{
     text-decoration: none;
@@ -103,7 +104,41 @@ a{
 
 .txtl:hover, .txtr:hover{
     border-bottom: solid 5px black;
-    padding-bottom: 35px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.contact{
+    width: 200px;
+    height: 120px;
+    background-color: #fff;
+    position: absolute;
+    padding-right: 20px;
+    right: 325px;
+    top: 100px;
+    opacity: 0%;
+    padding-bottom: 60px;
+}
+
+.mmc, .mmr{
+    height: 50px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.mmc{
+    margin-top: -20px;
+}
+
+.mmc:hover, .mmr:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.appear:hover .contact{
+   opacity: 100%;
 }
 
 /*informations*/
@@ -161,6 +196,56 @@ a{
 .arrow{
   font-size: 40px ;
   margin-top: 40px;
+}
+
+.arrow:hover{
+    animation: dance 3s linear infinite;
+}
+
+@keyframes dance {
+    0%{
+        margin-top: 0px;
+    }
+
+    10%{
+        margin-top: -5px;
+    }
+
+    20%{
+        margin-top: -10px;
+    }
+
+    30%{
+        margin-top: -8px;
+    }
+
+    40%{
+        margin-top: -5px;
+    }
+
+    50%{
+        margin-top: 0;
+    }
+
+    60%{
+        margin-top: 5px;
+    }
+
+    70%{
+        margin-top: 8px;
+    }
+
+    80%{
+        margin-top: 10px;
+    }
+
+    90%{
+        margin-top: 5px;
+    }
+
+    100%{
+        margin-top: 0;
+    }
 }
 
 /*pices of plans*/
