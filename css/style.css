@@ -767,6 +767,8 @@ h2{
     height: 100%;
 }
 
+/*frequently asked*/
+
 .frequently-asked{
     width: 50%;
     height: 500px;
@@ -786,6 +788,83 @@ h2{
     text-align: right;
     padding-left: 310px;
 }
+
+.response-f{
+    position: absolute;
+    margin-top: 20px;
+    display: none;
+    width: 40%;
+    color: grey;
+    cursor: pointer;
+}
+
+.response-g{
+    position: absolute;
+    margin-top: 20px;
+    display: none;
+    width: 40%;
+    color: grey;
+    cursor: pointer;
+}
+
+.response-t{
+    position: absolute;
+    margin-top: 20px;
+    display: none;
+    width: 40%;
+    color: grey;
+    cursor: pointer;
+}
+
+.response-r{
+    position: absolute;
+    margin-top: 20px;
+    display: none;
+    width: 40%;
+    color: grey;
+    cursor: pointer;
+}
+
+.f:hover .response-f{
+    display:block;
+    cursor: pointer;
+}
+
+.g:hover .response-g{
+    display:block;
+    cursor: pointer;
+}
+
+.t:hover .response-t{
+    display:block;
+    cursor: pointer;
+}
+
+.rf:hover .response-r{
+    display:block;
+    cursor: pointer;
+}
+
+.f:hover{
+    padding-bottom: 80px;
+    cursor: pointer;
+}
+
+.g:hover{
+    padding-bottom: 80px;
+    cursor: pointer;
+}
+
+.t:hover{
+    padding-bottom: 80px;
+    cursor: pointer;
+}
+
+.rf:hover{
+    padding-bottom: 80px;
+    cursor: pointer;
+}
+
 
 /*footer*/
 
